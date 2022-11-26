@@ -31,6 +31,7 @@
         android:required="false" />
 
     <application
+        tools:replace="android:label"
         android:name=".App"
         android:allowBackup="true"
         android:appCategory="productivity"
@@ -39,7 +40,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <meta-data android:name="com.pointzi.APP_KEY" android:value="Daniel_Test8b5ae38" />
         <activity
             android:name=".activities.SplashActivity"
             android:launchMode="singleTask"
